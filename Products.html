@@ -1,0 +1,110 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Page</title>
+  <!--Css Stylesheets-->
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/nav-bar.css">
+  <!--Icon for the website-->
+  <link rel="icon" type="image/x-icon" href="images/mango-icon.jpg">
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--Shopping cart javascript-->
+  <script src="js/products.js" type = "text/javascript"></script>
+</head>
+<body>
+  <form  action="shippingDetails.html" autocomplete="on">
+    <header>
+      <nav>
+        <div class="logo">
+          <!--Company Logo-->
+          <img src="images/logo.png" height="48px" alt="Mango Logo"/>
+          </div>
+            <!--Nav Links-->
+            <ul class="nav-links">
+              <li><a href="index.html" class="bubble">Home</a></li>
+              <li><a href="Products.html" class="bubble">Products Page</a></li>
+              <li><a href="shippingDetails.html" class="bubble">User Details</a></li>
+              <li><a href="gallery.html" class="bubble">Gallery Page</a></li>
+              <li><a href="findUs.html" class="bubble">Find Us</a></li>
+            </ul>
+            <!--Responsive Nav Bar-->
+            <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+      </nav>
+    </header>
+<main>
+      </head>
+        <body>
+          <!--Hero Image(banner)-->
+          <div class="hero-image">
+            <div class="hero-text">
+              <h1 class="bannerText">N  E  W     N  O  W</h1>
+            </div>
+          </div>
+  <div class="flexbox">
+    <!--Flexbox for Products-->
+    <section>
+        <p>
+        <img class="img1" class="align-right" length="600" width="250" src="images/product4.jpg"><p class="align-right"><br><em><b>Gingham blazer &nbsp;€69.99</b></em></p>
+        <input type="number" id="prod1" name="1" onchange="calculate()">
+        <br><br><br><br>
+        <img class="img1" class="align-right" length="600" width="250" src="images/Product 1.jpg"><p class="align-right"><br><em><b>Buttons suit waistcoat &nbsp;€99.99</b></em></p>
+        <input type="number" id="prod2" name="2" onchange="calculate()" >
+        <br><br><br><br><br>
+        <img class="img2" class="align-right" length="700" width="250" src="images/product7.jpg"><p class="align-right"><br><em><b>Floral openwork knitted top &nbsp; €48.99 </b></em></p>
+        <input type="number" id="prod3" name="3" onchange="calculate()" >
+        <br><br><br>
+        </p>
+	  </section>
+      <br>
+	  <section>
+        <img class="img1" class="align-right" length="600" width="250" src="images/Product Two.webp"><p class="align-right"><br><em><b>Pocket tweed jacket &nbsp; €57.99</b></em></p>
+        <input type="number" id="prod4" name="4" onchange="calculate()" >
+        <br><br><br><br>
+        <img class="img2" class="align-right" length="700" width="250" src="images/product5.jpg"><p class="align-right"><br><em><b>Dart palazzo trousers &nbsp; €106.78</b></em></p>
+        <input type="number" id="prod5" name="5" onchange="calculate()" >
+        <br><br><br><br><br>
+        <img class="img2" class="align-right" length="700" width="250" src="images/product8.jpg"><p class="align-right"><br><em><b>Overshirt with pockets &nbsp; €89.99</b></em></p>
+        <input type="number" id="prod6" name="6" onchange="calculate()" >
+        <br><br><br>
+	  </section>
+    
+    <section>
+    <img class="img1" class="align-right" length="600" width="250" src="images/Product Three.jpg"><p class="align-right"><br><em><b>Blazer suit 100% linen €78.99</b></em></p>
+    <input type="number" id="prod7" name="7" onchange="calculate()" >
+    <br><br><br><br>
+    <img class="img1" class="align-right" length="600" width="250" src="images/product6.jpg"><p class="align-right"><br><em><b>Cotton pleated trousers &nbsp; €57.99</b></em></p>
+    <input type="number" id="prod8" name="8" onchange="calculate()" >
+    <br><br><br><br><br>
+    <img class="img1" class="align-right" length="600" width="250" src="images/Product Four.webp"><p class="align-right"><br><em><b>Leather biker jacket &nbsp; €88.99</b></em></p>
+    <input type="number" id="prod9" name="9" onchange="calculate()" >
+    <br><br><br>
+    </section>
+  </div>
+
+</main>
+    <input id="grandTotal">
+    <!--Checkout Button-->
+    <input  class="checkout" type="submit" value="Checkout">
+    <!--Confirm Button-->
+    <input  type="submit" value="Confirm">
+  <form action="shippingDetails.html">
+    <!--Footer Deatils-->
+  <footer>
+    <div class="footer-text">
+      <p>Contact Us:</p>
+      <p>Unit 842 Blanchardstown Shopping Centre</p>
+      <p>Blanchardstown, Co. Dublin, Ireland</p>
+      <p>Phone: (01)-811-9254</p>
+    </div>
+  </footer>
+    <!--JavaScript Call-->
+    <script src="js/navbar.js" type = "text/javascript"></script>
+  </body>
+</html>
+    

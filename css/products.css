@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /*linear-gradient*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://balenciaga.dam.kering.com/m/3132061efe6ae6ae/Large-Home_Balenciaga_Summer23_campaign_Look11_2600x1300px-2x1.jpg") ;
+
+  /*height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+    background-color: #d3d3d3 ;
+}
+/*Flexbox Style*/
+.flexbox {
+    display: flex;
+}
+.flexbox section {
+    flex: 1;
+    border: 0.3rem;
+    padding: 2rem;
+}
+/*Align Image and text*/
+
+
+.img{
+    border: 5px solid #555;
+    
+}
+
+/*Checkout button*/
+.checkout{
+    margin-left:650px;
+}
+/*Hero text*/
+.hero-text {
+    text-align: center;
+    color: #fff;
+
+    }
+
+.bannerText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    text-shadow: 10px 10px black;
+
+}
+
+/*Footer Style*/
+.footer-text {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10%;
+    }
+    
+.footer-text p {
+    margin-bottom: 1rem;
+}

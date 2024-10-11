@@ -1,0 +1,170 @@
+body{
+    background-color: #d3d3d3;
+}
+
+
+.hero-image {
+    /* linear-gradient */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://staticpages.mngbcn.com/homes/images/ss23/she/abril/she_selection_0504.jpg?imwidth=1519&imdensity=1.25") ;
+  
+    /* height */
+    height: 76.5%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*                                                                                                                                 */
+/*Flexbox Style*/
+.flexbox {
+    display: flex;
+}
+.flexbox section {
+    flex: 1;
+    border: 0.3rem;
+}
+/*Accessory Images style*/
+.img {
+    margin-left: 50px;
+    border: 3px solid white;
+    margin-left: 80px;
+    box-shadow: 3px 3px gray;
+    
+  }
+/*Title*/
+.accessoriesTitle {
+  text-align: center;
+  font-size: 3rem;
+
+}
+/*Footer details*/
+.footer-text {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 10%;
+}
+    
+.footer-text p {
+  margin-bottom: 1rem;
+}
+
+/*Hero text style*/
+.hero-text {
+  text-align: center;
+  color: #fff;
+}
+
+.text2{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 4rem;
+text-shadow: 10px 10px black;
+}
+/*Discover more Images 1-7*/
+.Discover{
+  position: absolute;
+  top: 235%;
+  left: 39%;
+  color:white;
+  font-size: 1.5rem;
+}
+
+.Discover2{
+  position: absolute;
+  top: 155.5%;
+  left: 2.5%;
+  color:white;
+  font-size: 1.5rem;
+}
+
+.Discover3{
+  position: absolute;
+  top: 155.5%;
+  left: 66.5%;
+  color:white;
+  font-size: 1.5rem;
+  text-decoration-color: aqua;
+}
+
+.Discover4{
+  position: absolute;
+  top:  235%;
+  left: 66.5%;
+  color:white;
+  font-size: 1.5rem;
+}
+
+.Discover5{
+  position: absolute;
+  top:  235%;
+  left: 2.5%;
+  color:white;
+  font-size: 1.5rem;
+}
+
+.Discover6{
+  position: absolute;
+  top:  312.5%;
+  left:  2.5%;
+  color:white;
+  font-size: 1.5rem;
+}
+
+.Discover7{
+  position: absolute;
+  top:  312.5%;
+  left:  66.5%;
+  color:white;
+  font-size: 1.5rem;
+}
+/*Image border*/
+.img-border{
+  border: 5px solid white;
+}
+/*Accessories Image style 8-12*/
+.Discover8{
+  position: absolute;
+  top:  350%;
+  left:  84.9%;
+  color:white;
+  font-size: 1.4rem;
+}
+
+.Discover9{
+  position: absolute;
+  top:  350%;
+  left:  65.3%;
+  color:white;
+  font-size: 1.4rem;
+}
+.Discover10{
+  position: absolute;
+  top:  350%;
+  left:  46.2%;
+  color:white;
+  font-size: 1.4rem;
+}
+
+.Discover11{
+  position: absolute;
+  top:  350%;
+  left:  29.3%;
+  color:white;
+  font-size: 1.4rem;
+}
+
+.Discover12{
+  position: absolute;
+  top:  350%;
+  left:  10.3%;
+  color:white;
+  font-size: 1.4rem;
+  
+}
+/*Discover More text color*/
+a { color: white; }
+  

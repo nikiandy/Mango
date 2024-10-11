@@ -1,0 +1,136 @@
+/*User Detials CSS*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+  background-color: #d3d3d3;
+}
+/*Form Style*/
+.form {
+  width: 500px;
+  margin: 25px auto;
+}
+
+
+form {
+  padding: 20px;
+  background: white;
+  color: #151515;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: grey 2px 4px;
+  -moz-box-align: center;
+  
+  
+}
+form label,
+form input {
+  border: 1;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}
+
+form input {
+  height: 23px;
+  line-height: 25px;
+  background: white;
+  color: #000;
+  padding: 0 8px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+form button {
+  height: 30px;
+  line-height: 10px;
+  background: grey;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  align-self: center;
+  width:50%;
+  margin-bottom: 3px;
+  text-align: center;
+  display:block;
+  margin-left:140px;
+  margin-right:140px;
+  
+}
+form .error {
+  color: #ff0000;
+  font-weight: 500;
+  display: block;
+  font-size: 14px;
+}
+/*Form Legend*/
+legend {
+  font-size: 1.20em;
+  padding: 0 .25em;
+  color: balck;
+  position: relative;
+  top: 25px;
+  text-align: center;
+}
+/*First and Lastname style*/
+.first {
+    float:left;
+    width: 48%;
+}
+
+.last {
+    float:right;
+    width: 48%;
+    margin-left: 4%;
+}
+
+input[type="text1"]{
+    width:48%;
+    float:left;
+}
+input[type="text2"]{
+    width: 48%;
+    float: left;
+    margin-left: 4%;
+}
+
+---------------------------
+/*city/town and eircode style*/
+.city {
+    width: 48%;
+}
+
+.county {
+    float:right;
+    width: 48%;
+    margin-left: 4%;
+}
+
+input[type="text3"]{
+    width:48%;
+    float:left;
+}
+input[type="text4"]{
+    width: 48%;
+    float: left;
+    margin-left: 4%;
+}
+ /*Footer Details*/
+.footer-text {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 10%;
+}
+  
+.footer-text p {
+  margin-bottom: 1rem;
+}
